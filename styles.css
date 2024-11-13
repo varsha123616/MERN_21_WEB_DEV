@@ -1,0 +1,144 @@
+/* nav bar style start */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.nav-brand {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  /* font-size: 1.5rem; / 7.5px*/
+  font-size: 17px;
+  letter-spacing: 0.469rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  /* background-color: red; */
+  
+}
+
+#nav-link {
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-btn {
+  background-color: black;
+  color: white;
+  padding: 0.9rem;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+/* nav bar style end */
+
+/* home page start */
+.home {
+  display: flex;
+  align-items: center;
+  background-image: url(./assets/home-page\ 1.jpg);
+  height: 90vh;
+  background-size: cover;
+  /* background-position: center; */
+}
+.home-sec-1 { 
+
+}
+
+.home-sec-num {
+  text-align: center;
+  width: 30%;
+  height: 30%;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  /* margin: 0.5rem; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-sec-border {
+  border-right: 2.5px solid white;
+  /* color: white; */
+  width: 0;
+  /* height: 20px; */
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home-sec-2 {
+  margin-left: 2rem;
+  padding-left: 1rem;
+}
+.home-sec-2 > p {
+  text-transform: uppercase;
+  font-family: "poppins", sans-serif;
+  margin: 0;
+}
+
+.home-sec-2 > h2 {
+  font-size: 2rem;
+  line-height: 4rem;
+  margin: 0;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 3.75rem;
+  padding: 5px;
+}
+
+.home-sec-2 > h2 > span {
+  display: block;
+}
+
+.home-sec-2 > button {
+  background-color: #6d98ba;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-top: 0.5rem;
+}
+
+/* home page end */
+
+/* destination start */
+.dest {
+  width: 25%;
+  height: 10rem;
+
+}
+
+.dest-img > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4rem;
+}
+
+.dest-body > .dest-rating > button {
+  display: flex;
+  background-color: #6d98ba;
+  color: white;
+  margin-left: auto;
+  width: 40%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* destination end */
